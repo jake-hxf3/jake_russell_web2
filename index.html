@@ -2,12 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+   <!-- in mobile set initial zoom level of page to 100%, set site size to equal device size-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Responsive Scaffold</title>
 </head>
-<body>
-    
-    <script src="js/main.js"></script>
-</body>
+    <body>
+        <h1 class="hidden">CSS Responsive Layout</h1>
+            <header class="grid-con centered">
+                <h2 class="hidden">Site Header</h2>
+                <div id="main-logo" class="box col-span-3 m-col-span-1">
+                    <p>Logo</p>
+                </div>
+                <nav id="main-navbar" class="box col-span-1 m-col-span-11">
+                    <h3 class="hidden">Navigation</h3>
+                    <p>Nav</p>
+                </nav>
+            </header>
+
+            <main>
+                <section class="grid-con centered">
+                    <h2 class="hidden">Hero Section</h2>
+                    <div id="hero-img" class="box col-span-full">
+                        <p>Hero Image</p>
+                    </div>
+                </section>
+
+                <section class="grid-con centered">
+                    <h2 class="hidden">Products</h2>
+                    <div class="box col-span-2 m-col-span-6">
+                        <p>Product 1</p>
+                    </div>
+                    <div class="box col-span-2 m-col-span-6">
+                        <p>Product 2</p>
+                    </div>
+                </section>
+
+                <section class="grid-con centered">
+                    <h2 class="hidden">Services</h2>
+                    <div class="box col-span-2 m-col-span-4 l-col-span-3">
+                        <p>Service 1</p>
+                    </div>
+                    <div class="box col-span-2 m-col-span-4 l-col-span-3">
+                        <p>Service 2</p>
+                    </div>
+                    <div class="box col-span-2 m-col-span-4 l-col-span-3">
+                        <p>Service 3</p>
+                    </div>
+                    <div class="box col-span-2 m-col-span-4 l-col-span-3">
+                        <p>Service 4</p>
+                    </div>
+                    <div class="box col-span-2 m-col-span-4 l-col-span-3">
+                        <p>Service 5</p>
+                    </div>
+                    <div class="box col-span-2 m-col-span-4 l-col-span-3">
+                        <p>Service 6</p>
+                    </div>
+                    <div id="service-img" class="box l-col-span-6">
+                        <p>Image</p>
+                    </div>
+                </section>
+            </main>
+
+            <footer id="main-footer" class="grid-con centered">
+                <h2 class="hidden">Site Footer</h2>
+                <div class="box col-span-full">
+                    <p>Footer</p>    
+                </div>
+            </footer>
+
+
+        <script src="js/main.js"></script>
+    </body>
 </html>

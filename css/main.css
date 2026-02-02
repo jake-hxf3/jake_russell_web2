@@ -1,3 +1,34 @@
-.hidden{
-    display: none;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* normally, let content determine the height */
+.box {
+    background-color: #4d4d4d;
+    display: grid;
+    place-items: center;
+    border-radius: 1%;
+    min-height: 200px;
+}
+
+#hero-img {
+    min-height: 250px;
+}
+
+#main-logo, #main-navbar {
+    min-height: max-content;
+}
+
+#service-img {
+    order: 0;
+}
+
+section > ul {
+    list-style-type: none;
 }
