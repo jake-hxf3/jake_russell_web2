@@ -11,24 +11,27 @@ p {
 /* normally, let content determine the height */
 .box {
     background-color: #4d4d4d;
-    display: grid;
-    place-items: center;
     border-radius: 1%;
-    min-height: 200px;
 }
 
 #hero-img {
-    min-height: 250px;
+    min-height: 300px;
 }
 
 #main-logo, #main-navbar {
-    min-height: max-content;
-}
-
-#service-img {
-    order: 0;
+    height: max-content;
 }
 
 section > ul {
     list-style-type: none;
+}
+
+@media screen and (min-width: 1200px) {
+    div:has(+ #service-img) {
+        order: 1
+    }
+
+    #service-img {
+        order: 0
+    }
 }

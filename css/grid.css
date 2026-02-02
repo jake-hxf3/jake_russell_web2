@@ -22,9 +22,18 @@ body, p, h1, h2, h3, h4, h5 {
 
 /* ---Utility Classes--- */
 
-.no-display {
-   display: none;
-}
+.box {
+   display: grid;
+   place-items: center;
+   height: 200px;
+   background-color: powderblue;
+   color: rgb(27, 27, 27);
+   border-radius: 5px;
+   padding: 20px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
 
 .hidden {
    opacity: 0;
@@ -37,15 +46,15 @@ body, p, h1, h2, h3, h4, h5 {
    pointer-events: none;
 }
 
-.box {
-   background-color: powderblue;
-   color: rgb(27, 27, 27);
-   border-radius: 5px;
-   padding: 20px;
-   text-align: center;
-   margin-top: 10px;
-   margin-bottom:10px;
- }
+.display-none {
+   display: none;
+}
+
+.no-visible{
+   position: fixed;
+   visibility: hidden;
+   max-height: 0;
+}
 
 .centered {
    margin: 0 auto;
@@ -133,6 +142,11 @@ body, p, h1, h2, h3, h4, h5 {
    .m-col-end-12	{grid-column-end: 12;}
    .m-col-end-13	{grid-column-end: 13;}
 
+   .m-visible {   
+      position: inherit;
+      visibility: visible;
+      max-height: inherit;
+   }
 }
 
 
@@ -186,6 +200,12 @@ body, p, h1, h2, h3, h4, h5 {
    .l-col-end-11	{grid-column-end: 11;}
    .l-col-end-12	{grid-column-end: 12;}
    .l-col-end-13	{grid-column-end: 13;}
+
+   .l-visible {   
+      position: inherit;
+      visibility: visible;
+      max-height: inherit;
+   }
 }
 
 /* Add XL Later */
