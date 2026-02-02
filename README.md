@@ -1,7 +1,6 @@
 # Responsive Scaffold
-![a preview of the wireframe on different sizes](images/scaffold.jpg)
-
 This is a project about building a Responsive grid system & template.
+![a preview of the wireframe on different sizes](images/scaffold.jpg)
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
