@@ -1,5 +1,6 @@
 # Responsive Scaffold
 This is a project about building a Responsive grid system & template.
+
 ![a preview of the wireframe on different sizes](images/scaffold.jpg)
 
 ## Installation 💻
