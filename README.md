@@ -1,5 +1,5 @@
 # Responsive Scaffold
-![insert alt text](images/example.jpg)
+![a preview of the wireframe on different sizes](images/scaffold.jpg)
 
 This is a project about building a Responsive grid system & template.
 
