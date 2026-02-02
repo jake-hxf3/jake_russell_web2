@@ -1,12 +1,12 @@
 # Project Name
 ![insert alt text](images/example.jpg)
 
-This is a project about [insert topic].
+This is a project about building a Responsive grid system & template.
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
 ## Usage
-Open index.html in the browser of your choice and see the website.
+This can be used as a template to design websites. Edit and add more content & styles in an text editor such as VSCode. View the results on your browser.
 
 ## Contributing 
 1. Fork it!
