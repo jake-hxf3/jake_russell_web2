@@ -1,4 +1,4 @@
-# Project Name
+# Responsive Scaffold
 ![insert alt text](images/example.jpg)
 
 This is a project about building a Responsive grid system & template.
