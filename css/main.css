@@ -33,6 +33,12 @@ section > ul {
     max-height: 0;
 }
 
+@media screen and (min-width: 768px) {
+    #main-navbar {
+        justify-items: end;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     div:has(+ #service-img) {
         order: 1;
