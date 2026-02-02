@@ -26,12 +26,21 @@ section > ul {
     list-style-type: none;
 }
 
+#service-img {
+    position: fixed;
+    visibility: hidden;
+    max-height: 0;
+}
+
 @media screen and (min-width: 1200px) {
     div:has(+ #service-img) {
-        order: 1
+        order: 1;
     }
 
     #service-img {
-        order: 0
+        order: 0;
+        position: inherit;
+        visibility: visible;
+        max-height: inherit;
     }
 }

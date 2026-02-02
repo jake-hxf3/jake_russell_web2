@@ -141,12 +141,6 @@ body, p, h1, h2, h3, h4, h5 {
    .m-col-end-11	{grid-column-end: 11;}
    .m-col-end-12	{grid-column-end: 12;}
    .m-col-end-13	{grid-column-end: 13;}
-
-   .m-visible {   
-      position: inherit;
-      visibility: visible;
-      max-height: inherit;
-   }
 }
 
 
@@ -200,12 +194,6 @@ body, p, h1, h2, h3, h4, h5 {
    .l-col-end-11	{grid-column-end: 11;}
    .l-col-end-12	{grid-column-end: 12;}
    .l-col-end-13	{grid-column-end: 13;}
-
-   .l-visible {   
-      position: inherit;
-      visibility: visible;
-      max-height: inherit;
-   }
 }
 
 /* Add XL Later */
