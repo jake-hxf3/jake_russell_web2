@@ -1,7 +1,7 @@
 # Responsive Scaffold
 ![insert alt text](images/example.jpg)
 
-This is a project about building a Responsive grid system & template.
+This branch of Responsive grid system & template adds grid classes of no visibility, an alternative method to the main branch.
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
